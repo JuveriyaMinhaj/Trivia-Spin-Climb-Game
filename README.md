@@ -1,5 +1,4 @@
-# Trivia-Spin-Climb-Game
-# Trivia Spin & Climb Game
+# Trivia-Spin-Climb-Gam
 
 This is a web-based interactive quiz game that combines the excitement of a spin wheel with the classic board logic of ladders. The player spins a wheel, answers trivia questions, and progresses on a virtual board using only ladders—no snakes. The game is built using HTML, CSS, JavaScript, and the HTML5 Canvas API.
 
@@ -29,4 +28,4 @@ This is a web-based interactive quiz game that combines the excitement of a spin
 5. Reach position 100 to win the game.
 
 ## Live Demo
-
+https://juveriyaminhaj.github.io/Trivia-Spin-Climb-Game/
