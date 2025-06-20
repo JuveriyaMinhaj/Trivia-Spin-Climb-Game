@@ -1,0 +1,105 @@
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color : pink;
+    background-image: url('bg.jpg'); 
+}
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2, #question-text {
+    color: #ffcc00;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Wheel and Game Layout */
+#wheel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+#answer-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+/* Result and Position Display */
+#result-message {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#position-display {
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 20px;
+}
+
+/* Game Board Styling */
+#game-board {
+    border: 2px solid #333;
+    margin: 20px auto;
+}
+
+.strokeRect {
+    stroke: #ddd;
+}
+
+.line {
+    stroke-width: 5px;
+}
+
+/* Ladder and Snake Colors */
+.snake {
+    stroke: red;
+}
+
+.ladder {
+    stroke: green;
+}
+
+/* Player Circle */
+#game-board .player {
+    fill: blue;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+.choice-btn:hover {
+    background-color: #ffffff;
+    color: #000;
+    border: 2px solid #007bff;
+}
